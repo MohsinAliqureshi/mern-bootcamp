@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid px-2">
+        <div class="row py-2 bg-primary text-white ">
+            <div class="col-7 col-md-8">
+                <i class="bi bi-person-vcard"></i>
+                Cloud Contact
+            </div>
+            <div class="col-5 col-md-4">
+                <div class="row">
+                    <div class="col-md-9 text-end">
+                        Hello Sultans Mohsin
+                    </div>
+                    <div class="col-md-3 text-end">
+                        <i class="bi bi-box-arrow-right"></i>
+                        Logout
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="text-center fw-bold text-primary my-3">Add Contact</div>
+                <form>
+                    <div class="mb-3">
+                        <input type="Name" class="form-control" id="Name" aria-describedby="nameHelp"
+                            placeholder="Name">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="email">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="phone">
+                    </div>
+                </form>
+                <div>
+                    <h3>Contact type</h3>
+                    <div class="form-check form-check-inline ">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                            value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                            Default radio
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                            value="option2">
+                        <label class="form-check-label" for="exampleRadios2">
+                            Second default radio
+                        </label>
+                    </div>
+                </div>
+                <img src="data:image/jpeg;base64,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"
+                    alt="">
+                <button class="btn btn-primary text-center d-block w-100 mt-3">
+                    Add contact
+                </button>
+            </div>
+            <div class="col-md-6">
+                <input type="text" name="" id="" placeholder="Filter contacts" class="form-control my-3">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="card-body mt-2">
+                        <div class="row">
+                            <div class="col-7 col-md-8">
+                                <h5 class="card-title">Card title</h5>
+                                <div class="card-text">
+                                    <ul class="ps-0" style="list-style-type: none;">
+                                        <li>mohsinali@gmail.com</li>
+                                        <li>03129873847</li>
+                                    </ul>
+                                </div>
+                                <div class="d-flex">
+                                    <button class="btn btn-sm btn-dark">Edit</button>
+                                    <button class="btn btn-sm btn-danger ms-2">Delete</button>
+                                </div>
+                            </div>
+                            <div class="col-5 col-md-4">
+                                <div class="bg-primary p-1 mb-1 rounded-1">
+                                    <h5>Personal</h5>
+                                </div>
+                                <img src="GhulamAli.jpg" class="card-img" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="card-body mt-2">
+                        <div class="row">
+                            <div class="col-7 col-md-8">
+                                <h5 class="card-title">Card title</h5>
+                                <div class="card-text">
+                                    <ul class="ps-0" style="list-style-type: none;">
+                                        <li>sartaj111@gmail.com</li>
+                                        <li>03190508814</li>
+                                    </ul>
+                                </div>
+                                <div class="d-flex">
+                                    <button class="btn btn-sm btn-dark">Edit</button>
+                                    <button class="btn btn-sm btn-danger ms-2">Delete</button>
+                                </div>
+                            </div>
+                            <div class="col-5 col-md-4">
+                                <div class="bg-primary p-1 mb-1 rounded-1">
+                                    <h5 class="card-title">Professional</h5>
+                                </div>
+                                <img src="GhulamAli.jpg" class="card-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
